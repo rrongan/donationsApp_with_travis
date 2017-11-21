@@ -11,7 +11,6 @@ language: node_js
   notifications:
     email:
       recipients:
-        - one@example.com      # uae your own
-        - other@example.com    # uae other (optional)
+        - rrongan@gmail.com      # uae your own
       on_success: never        # default: change
       on_failure: always       # default: always
