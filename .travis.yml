@@ -8,9 +8,9 @@ language: node_js
  branches:
    only:
    - development
-  notifications:
-    email:
-      recipients:
-        - rrongan@gmail.com      # uae your own
-      on_success: never        # default: change
-      on_failure: always       # default: always
+ notifications:
+   email:
+     recipients:
+       - rrongan@gmail.com      # uae your own
+     on_success: never        # default: change
+     on_failure: always       # default: always
