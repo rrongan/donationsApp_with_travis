@@ -1,17 +1,17 @@
 language: node_js
- node_js:
- - stable
- script:
- - npm run coverage
- after_success:
- - npm run report-coverage
- branches:
-   only:
-   - development
-  notifications:
-    email:
-      recipients:
-        - one@example.com      # uae your own
-        - other@example.com    # uae other (optional)
-      on_success: never        # default: change
-      on_failure: always       # default: always
+node_js:
+- stable
+script:
+- npm run coverage
+- npm run check-coverage
+after_success:
+- npm run report-coverage
+branches:
+ only:
+ - development
+notifications:
+ email:
+   recipients:
+     - rrongan@gmail.com      # uae your own
+   on_success: never        # default: change
+   on_failure: always       # default: always
