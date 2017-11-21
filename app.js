@@ -29,7 +29,7 @@ if (prod) {
 } else {
     app.use(express.static(path.join(__dirname, 'build')));
 }  
-app.use("/public", express.static(__dirname + "/public"));  // NEW
+app.use('/public', express.static(__dirname + '/public'));  // NEW
     
 app.use('/', routes);
 
